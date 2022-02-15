@@ -1,0 +1,172 @@
+#nav-banner{
+    background-color: #f0fff0;
+}
+.navbar{
+    background: transparent !important;
+}
+.banner{
+    margin-top: 100px;
+}
+.navbar-brand img{
+    width: 200px;
+
+}
+.nav-item{
+margin: 0 25px;
+}
+.button{
+  color: black;
+  height: 40px;
+    width:100px;
+   border: 1px solid #21B573;
+   text-align: center;
+   border-radius: 25px;
+   -webkit-border-radius: 25px;
+   -moz-border-radius: 25px;
+   -ms-border-radius: 25px;
+   -o-border-radius: 25px;
+   background: transparent;
+   position: relative;
+   overflow: hidden;
+   z-index: 1;
+   font-size: 16px;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+.button span{
+    position: absolute;
+    background-color: #21B573;
+    width: 0;
+    height:100%;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transition:.5s ;
+    -webkit-transition:.5s ;
+    -moz-transition:.5s ;
+    -ms-transition:.5s ;
+    -o-transition:.5s ;
+    z-index:-1;
+}
+.button:hover{
+    color: white;
+    border: transparent;
+}
+.button:hover span{
+    width: 100%;
+
+}
+.banner .button{
+    width: 150px;
+    
+}
+.banner-text h6{
+    font-size: 18px;
+    color: red;
+}
+.banner-text span{
+    color: #21B573;
+}
+.banner-text h1{
+    line-height: 60px;
+    margin:30px 0;
+}
+.banner-text p{
+    line-height: 35px;
+}
+.content img{
+    margin: 0 auto;
+
+}
+.content .book{
+    width: 66px;
+    
+}
+.content .test{
+    width: 80px;
+}
+.content .student{
+    width: 80px;
+}
+.content .students{
+    width: 75px;
+}
+.content{
+    padding: 20px;
+    text-align: center;
+    background-color: #F8FFFB;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -ms-transition: .1s;
+    -o-transition: .1s;
+}
+.content:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
+}
+.row{
+    margin:50px 0;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px rgba(29, 28, 28, 0.37);
+    margin-bottom: 50px;
+}
+.card img{
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+.heading{
+   text-align: center;
+   margin-bottom: 40px;
+}
+.buy-now{
+    background: linear-gradient(to left, #137208 0%, #21B573 100%);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: none;
+    color: white;
+    padding:3px 8px;
+   
+} 
+.buy-now:hover{
+    background: linear-gradient(to left, #21B573  0%,#0c5803 100%);
+}
+.cardfooter{
+   margin-top: 40px;
+}
+.price{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.cardfooter p{
+    margin: -3px 0 0px  10px;
+
+}
+.col-md-2 img{
+    width: 120px;
+}
+.footer{
+  background: #282531;
+  color: #ffffff;
+  padding: 50px;
+    
+}
+
+.col-md-1 p{
+    margin: 0;
+}
+.copy-right i{
+    margin-top: 4px;
+    color: #ffffff98;
+}
